@@ -1,0 +1,17 @@
+{
+  "name": "recipes-cypress",
+  "version": "1.0.0",
+  "main": "N/A",
+  "scripts": {
+    "test": "cypress run",
+    "test:ci": "cypress run --headless",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.20.4",
+    "cypress": "^6.5.0"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.2"
+  }
+}
