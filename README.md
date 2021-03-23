@@ -1,1 +1,1 @@
-# automation-recipes
+# Automation Recipes
