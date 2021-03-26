@@ -5,7 +5,8 @@
   "scripts": {
     "test": "cypress run",
     "test:ci": "cypress run --headless",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "devDependencies": {
     "@applitools/eyes-cypress": "^3.20.4",
