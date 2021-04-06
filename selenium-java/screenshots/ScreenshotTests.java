@@ -26,6 +26,5 @@ public class ScreenshotTests extends BaseTests {
         }catch(IOException e){
             e.printStackTrace();
         }
-
     }
 }
