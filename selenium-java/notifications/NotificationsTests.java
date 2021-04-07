@@ -26,7 +26,7 @@ public class NotificationsTests extends BaseTests {
                 Map.of("profile.default_content_setting_values.notifications", 1)
         );
         driver = new ChromeDriver(options);
-        driver.get("https://the-kitchen-applitools.netlify.app/ingredients/notification");
+        driver.get("https://kitchen.applitools.com/ingredients/notification");
     }
 
     @Test
