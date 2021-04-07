@@ -1,17 +1,11 @@
 package notifications;
 
 import base.BaseTests;
-import org.apache.tools.ant.taskdefs.Java;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.devtools.v89.serviceworker.ServiceWorker;
-import org.openqa.selenium.devtools.v89.serviceworker.model.ServiceWorkerRegistration;
-
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
