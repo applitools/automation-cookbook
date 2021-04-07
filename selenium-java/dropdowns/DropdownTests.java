@@ -1,7 +1,6 @@
 package dropdowns;
 
 import base.BaseTests;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -17,7 +16,7 @@ public class DropdownTests extends BaseTests {
 
     @BeforeEach
     public void launchApp(){
-        driver.get("https://the-kitchen-applitools.netlify.app/ingredients/select");
+        driver.get("https://kitchen.applitools.com/ingredients/select");
     }
 
     @Test
