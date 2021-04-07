@@ -9,7 +9,7 @@ public class FileUploadTests extends BaseTests {
 
     @BeforeEach
     public void launchApp(){
-        driver.get("https://the-kitchen-applitools.netlify.app/ingredients/file-picker");
+        driver.get("https://kitchen.applitools.com/ingredients/file-picker");
     }
 
     @Test
