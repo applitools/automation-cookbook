@@ -14,7 +14,7 @@ public class ScreenshotTests extends BaseTests {
 
     @BeforeEach
     public void launchApp(){
-        driver.get("https://the-kitchen-applitools.netlify.app");
+        driver.get("https://kitchen.applitools.com");
     }
 
     @Test
