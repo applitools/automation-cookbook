@@ -18,7 +18,7 @@ public class TableTests extends BaseTests {
 
     @BeforeAll
     public static void launchApp(){
-        driver.get("https://the-kitchen-applitools.netlify.app/ingredients/table");
+        driver.get("https://kitchen.applitools.com/ingredients/table");
     }
 
     @Test
