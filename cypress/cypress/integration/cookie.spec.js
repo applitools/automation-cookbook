@@ -1,4 +1,4 @@
-describe("Alert", () => {
+describe("Cookie", () => {
 
   beforeEach(() => {
     cy.visit('/ingredients/cookie');
@@ -26,8 +26,7 @@ describe("Alert", () => {
   it('should add a new cookie', () => {
     cy.setCookie('fruit', 'papaya').then(() => {
       cy.getCookie('fruit').should('have.property', 'value', 'papaya');
-    });
-    
+    }); 
   });
 
 });
