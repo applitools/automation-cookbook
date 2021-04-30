@@ -52,16 +52,4 @@ public class CookieTests extends BaseTests {
         driver.manage().deleteCookie(cookie);
         assertNull(driver.manage().getCookieNamed(cookie.getName()));
     }
-
-    @Test
-    public void testingKeys(){
-        Cookie cookie = new Cookie("fruit", "apple");
-        driver.manage().addCookie(cookie);
-    }
-
-    @Test
-    public void testingKeysa(){
-        Cookie cookie = new Cookie("fruit", "mango");
-        driver.manage.addCookie(cookie);
-    }
 }
