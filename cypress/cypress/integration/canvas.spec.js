@@ -4,7 +4,7 @@ describe("Canvas", () => {
     cy.visit('/ingredients/canvas');
   });
 
-  it('should trigger an alert with a message', () => {
+  it('should click a button on a canvas', () => {
     cy.get('#burger_canvas').then($canvas => {
       // Get dimension of the canvas
 
