@@ -6,4 +6,4 @@ The automation recipe videos range from 3-10 minutes in length and cover topics 
 
 [View the Automation Cookbook](https://info.applitools.com/udgie)
 
-Powered by [Applitools](https://info.applitools.com/ucy78)
+Powered by [Applitools](https://info.applitools.com/ucY78)
