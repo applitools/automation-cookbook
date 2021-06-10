@@ -18,15 +18,3 @@ npm run cy:run
 ```
 npm run test:ci
 ```
-
-## Environment
-
-### cypress.env.json
-
-Create a cypress.env.json file at the root of the project with:
-
-```
-{
-  "TENOR_API_KEY": "[Your Tenor API Key]" // Required for api.spec.js
-}
-```
