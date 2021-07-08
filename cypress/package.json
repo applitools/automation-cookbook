@@ -9,6 +9,7 @@
     "cy:run": "cypress run"
   },
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.6.0",
     "@applitools/eyes-cypress": "^3.20.4",
     "cypress": "^6.5.0"
   },
