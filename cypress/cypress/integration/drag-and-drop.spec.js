@@ -4,7 +4,7 @@ describe("Drag and Drop", () => {
     cy.visit('/ingredients/drag-and-drop');
   });
   
-  it('should drag fried chicken to the plate', () => {
+  it('should drag fried chicken to the order', () => {
     const dataTransfer = new DataTransfer();
 
     cy.get('#menu-fried-chicken').trigger('dragstart', {
@@ -16,7 +16,7 @@ describe("Drag and Drop", () => {
     });
   });
   
-  it('should drag ice cream to the plate', () => {
+  it('should drag ice cream to the order', () => {
     cy.get('#menu-ice-cream').drag('#plate-items');
   });
 
