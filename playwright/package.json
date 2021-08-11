@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "N/A",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test --headed"
   },
   "devDependencies": {
-    "@playwright/test": "^1.13.1"
+    "@playwright/test": "^1.13.1",
+    "playwright": "^1.13.1"
   }
 }
