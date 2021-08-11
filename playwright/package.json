@@ -1,0 +1,11 @@
+{
+  "name": "recipes-playwright",
+  "version": "1.0.0",
+  "main": "N/A",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.13.1"
+  }
+}
