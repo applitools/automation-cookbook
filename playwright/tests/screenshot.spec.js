@@ -1,4 +1,4 @@
-const { describe, test, expect } = require('@playwright/test');
+const { test } = require('@playwright/test');
 
 test.describe("Screenshot", () => {
   test.beforeEach(async ({ page }) => {
