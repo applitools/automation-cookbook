@@ -54,7 +54,7 @@ describe("Table", () => {
       'Type',
       'Flavor'
     ]
-    
+
     const tableDataUnsorted = [
       ['Apple', 'Fruit', 'Sweet'],
       ['Lemon', 'Fruit', 'Bitter'],
@@ -63,7 +63,7 @@ describe("Table", () => {
       ['Carrots', 'Vegetable', 'Sweet'],
       ['Banana', 'Fruit', 'Sweet']
     ]
-    
+
     const tableDataSortedAsc = [
       ['Apple', 'Fruit', 'Sweet'],
       ['Banana', 'Fruit', 'Sweet'],
@@ -72,7 +72,7 @@ describe("Table", () => {
       ['Onion', 'Vegetable', 'Bitter'],
       ['Pepper', 'Vegetable', 'Sweet']
     ]
-    
+
     const tableDataSortedDesc = [
       ['Pepper', 'Vegetable', 'Sweet'],
       ['Onion', 'Vegetable', 'Bitter'],
@@ -87,7 +87,7 @@ describe("Table", () => {
         cy.wrap($el).contains(tableHeader[index]);
       });
     });
-    
+
     it('should verify table data loads', () => {
       cy.get('#fruits-vegetables tbody tr').each(($row, rowIndex) => {
         cy.wrap($row).find('td').each(($cell, cellIndex) => {
@@ -112,7 +112,7 @@ describe("Table", () => {
       });
     });
 
-    it('should verify table data is sorted ascending', () => {
+    it('should verify table data is sorted descending', () => {
       cy.get('#fruits-vegetables tbody tr').each(($row, rowIndex) => {
         cy.wrap($row).find('td').each(($cell, cellIndex) => {
           cy.wrap($cell).contains(tableDataUnsorted[rowIndex][cellIndex]);
