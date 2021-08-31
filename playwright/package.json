@@ -6,6 +6,7 @@
     "test": "playwright test --headed"
   },
   "devDependencies": {
+    "@applitools/eyes-playwright": "^1.9.1",
     "@playwright/test": "^1.13.1",
     "playwright": "^1.14.0"
   }

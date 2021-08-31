@@ -1,6 +1,6 @@
 const { test } = require('@playwright/test');
 
-test.describe("Screenshot", () => {
+test.describe('Screenshot', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('https://kitchen.applitools.com/ingredients/file-picker');
   });

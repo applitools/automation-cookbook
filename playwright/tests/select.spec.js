@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test.describe("Select", () => {
+test.describe('Select', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('https://kitchen.applitools.com/ingredients/select');
   });

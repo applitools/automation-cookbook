@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test.describe("File Picker", () => {
+test.describe('File Picker', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('https://kitchen.applitools.com/ingredients/file-picker');
   });
