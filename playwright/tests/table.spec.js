@@ -2,8 +2,6 @@ const { test, expect } = require('@playwright/test');
 const { Eyes, Target } = require('@applitools/eyes-playwright')
 
 test.describe('Table', () => {
-  let runner, browser, page
-
   test.beforeEach(async ({ page }) => {
     await page.goto('https://kitchen.applitools.com/ingredients/table');
   });
